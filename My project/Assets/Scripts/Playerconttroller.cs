@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WallClingPlayer : MonoBehaviour
@@ -25,6 +26,7 @@ public class WallClingPlayer : MonoBehaviour
     private bool isGrounded;
     private bool isTouchingWall;
     private bool isWallClinging;
+    private bool isactive;
 
     void Start()
     {
@@ -72,9 +74,18 @@ public class WallClingPlayer : MonoBehaviour
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), 1, 1);
             }
         }
-    }
+            //if (isactive )
+    
+    } 
 
-    [System.Obsolete]
+    
+
+
+
+
+
+
+[System.Obsolete]
     void FixedUpdate()
     {
         // Horizontal movement only if not clinging
