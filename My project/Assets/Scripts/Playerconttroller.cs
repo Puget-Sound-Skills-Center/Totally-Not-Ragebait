@@ -17,16 +17,21 @@ public class WallClingPlayer : MonoBehaviour
     public float wallCheckRadius = 0.2f;
     public LayerMask wallLayer;
 
-    [Header("Wall Jump")]
-    public float wallJumpForceX = 8f;
-    public float wallJumpForceY = 10f;
+    [Header("Directional Wall Bounce")]
+    public float wallBounceForceX = 10f;
+    public float wallBounceForceY = 12f;
+    public float wallBounceCooldown = 0.15f;
+
+    private float wallBounceTimer;
+    private int wallDirection; // -1 = wall on left, 1 = wall on right
 
     private Rigidbody2D rb;
     private float horizontalInput;
     private bool isGrounded;
     private bool isTouchingWall;
     private bool isWallClinging;
-    private bool isactive;
+    public GameObject Player;
+    private bool ActiveSelf;
 
     void Start()
     {
@@ -36,6 +41,8 @@ public class WallClingPlayer : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
+        wallBounceTimer -= Time.deltaTime;
+
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
         // Flip player to face movement
@@ -49,9 +56,15 @@ public class WallClingPlayer : MonoBehaviour
 
         // Wall check
         isTouchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
+        if (isTouchingWall)
+        {
+            // Wall is on the side the player is facing
+            wallDirection = (int)Mathf.Sign(transform.localScale.x);
+        }
+
 
         // Wall cling: player sticks if touching wall and in air
-        isWallClinging = isTouchingWall && !isGrounded && horizontalInput == Mathf.Sign(transform.localScale.x);
+        isWallClinging = isTouchingWall && !isGrounded;
 
         if (isWallClinging)
         {
@@ -65,27 +78,30 @@ public class WallClingPlayer : MonoBehaviour
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             }
-            else if (isWallClinging)
+            else if (isTouchingWall && wallBounceTimer <= 0)
             {
-                float jumpDir = -Mathf.Sign(transform.localScale.x); // push away from wall
-                rb.velocity = new Vector2(jumpDir * wallJumpForceX, wallJumpForceY);
+                int bounceDir = -wallDirection; // ALWAYS away from wall
 
-                // Optional: flip player away from wall
-                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), 1, 1);
+                rb.velocity = new Vector2(
+                    bounceDir * wallBounceForceX,
+                    wallBounceForceY
+                );
+
+                wallBounceTimer = wallBounceCooldown;
+
+                // Flip player to face jump direction
+                transform.localScale = new Vector3(bounceDir, 1, 1);
             }
         }
-            //if (isactive )
-    
-    } 
-
-    
 
 
 
 
 
 
-[System.Obsolete]
+
+    }
+    [System.Obsolete]
     void FixedUpdate()
     {
         // Horizontal movement only if not clinging
