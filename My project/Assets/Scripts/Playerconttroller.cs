@@ -66,10 +66,10 @@ public class WallClingPlayer : MonoBehaviour
         // Wall cling: player sticks if touching wall and in air
         isWallClinging = isTouchingWall && !isGrounded;
 
-        if (isWallClinging)
-        {
-            rb.velocity = Vector2.zero; // freeze player on wall
-        }
+         if (isWallClinging)
+         {
+             rb.velocity = Vector2.zero; // freeze player on wall
+         } 
 
         // Jump
         if (Input.GetKeyDown(KeyCode.Space))
@@ -101,6 +101,7 @@ public class WallClingPlayer : MonoBehaviour
 
 
     }
+
     [System.Obsolete]
     void FixedUpdate()
     {
