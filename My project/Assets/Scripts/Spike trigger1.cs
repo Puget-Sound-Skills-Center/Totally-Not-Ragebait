@@ -1,7 +1,6 @@
-using System.Collections;
 using UnityEngine;
 
-public class TriggerMoveToPosition2D : MonoBehaviour
+public class TriggerMoveToPosition2Ddelay : MonoBehaviour
 {
     [Header("Object To Move")]
     public Transform objectToMove;
@@ -14,19 +13,21 @@ public class TriggerMoveToPosition2D : MonoBehaviour
     public float moveSpeed = 3f;
 
     private bool shouldMove = false;
-   
-    [Header("Delay")]
-    public float delayBeforeMove = 1f;
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            StartCoroutine(DelayedMove());
+            if (moveInstantly)
+            {
+                objectToMove.position = targetPosition;
+            }
+            else
+            {
+                shouldMove = true;
+            }
         }
     }
-
 
     private void Update()
     {
@@ -43,20 +44,5 @@ public class TriggerMoveToPosition2D : MonoBehaviour
                 shouldMove = false;
             }
         }
- 
     }
-    private IEnumerator DelayedMove()
-    {
-        yield return new WaitForSeconds(delayBeforeMove);
-
-        if (moveInstantly)
-        {
-            objectToMove.position = targetPosition;
-        }
-        else
-        {
-            shouldMove = true;
-        }
-    }
-
 }
