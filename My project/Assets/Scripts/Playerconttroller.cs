@@ -32,6 +32,9 @@ public class WallClingPlayer : MonoBehaviour
     private bool isWallClinging;
     public GameObject Player;
     private bool ActiveSelf;
+    private float wallDetachTimer;
+    public float wallDetachTime = 0.2f;
+
 
     void Start()
     {
@@ -64,12 +67,13 @@ public class WallClingPlayer : MonoBehaviour
 
 
         // Wall cling: player sticks if touching wall and in air
-        isWallClinging = isTouchingWall && !isGrounded;
+        isWallClinging = isTouchingWall && !isGrounded && wallBounceTimer <= 0;
 
-         if (isWallClinging)
+        if (isWallClinging)
          {
-             rb.velocity = Vector2.zero; // freeze player on wall
-         } 
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+
+        }
 
         // Jump
         if (Input.GetKeyDown(KeyCode.Space))
@@ -80,7 +84,7 @@ public class WallClingPlayer : MonoBehaviour
             }
             else if (isTouchingWall && wallBounceTimer <= 0)
             {
-                int bounceDir = -wallDirection; // ALWAYS away from wall
+                int bounceDir = -wallDirection;
 
                 rb.velocity = new Vector2(
                     bounceDir * wallBounceForceX,
@@ -88,10 +92,11 @@ public class WallClingPlayer : MonoBehaviour
                 );
 
                 wallBounceTimer = wallBounceCooldown;
+                wallDetachTimer = wallDetachTime; // <-- THIS IS THE KEY
 
-                // Flip player to face jump direction
                 transform.localScale = new Vector3(bounceDir, 1, 1);
             }
+
         }
 
 
