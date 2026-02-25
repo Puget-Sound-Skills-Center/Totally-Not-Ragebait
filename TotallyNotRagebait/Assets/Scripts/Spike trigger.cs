@@ -23,6 +23,7 @@ public class TriggerMoveToPosition2D : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("why isn't this working");
             StartCoroutine(DelayedMove());
         }
     }
@@ -32,6 +33,7 @@ public class TriggerMoveToPosition2D : MonoBehaviour
     {
         if (shouldMove)
         {
+            Debug.Log("work");
             objectToMove.position = Vector2.MoveTowards(
                 objectToMove.position,
                 targetPosition,
@@ -48,10 +50,12 @@ public class TriggerMoveToPosition2D : MonoBehaviour
     private IEnumerator DelayedMove()
     {
         yield return new WaitForSeconds(delayBeforeMove);
+        Debug.Log("delaybroken");
 
         if (moveInstantly)
         {
             objectToMove.position = targetPosition;
+            Debug.Log("brotavious");
         }
         else
         {

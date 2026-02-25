@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 
 public class TriggerMoveToPosition2Ddelay : MonoBehaviour
@@ -33,6 +34,7 @@ public class TriggerMoveToPosition2Ddelay : MonoBehaviour
     {
         if (shouldMove)
         {
+            print("why won't you work");
             objectToMove.position = Vector2.MoveTowards(
                 objectToMove.position,
                 targetPosition,
