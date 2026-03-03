@@ -13,8 +13,12 @@ public class SceneResetter : MonoBehaviour
         string currentSceneName = SceneManager.GetActiveScene().name;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         // Load the scene with the retrieved name
         yield return new WaitForSeconds(1);
+=======
+        yield return new WaitForSeconds(0.5f);
+>>>>>>> Stashed changes
 =======
         yield return new WaitForSeconds(0.5f);
 >>>>>>> Stashed changes

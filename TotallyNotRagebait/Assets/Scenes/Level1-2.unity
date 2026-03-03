@@ -120,7 +120,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &23302070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,6 +1758,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   train: {fileID: 183490665}
   Player: {fileID: 791155909}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &619394800
 GameObject:
@@ -1841,7 +1847,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &642630466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,6 +2093,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665211364}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &690289711
 GameObject:
@@ -2177,8 +2189,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   Levelindex: 0
 =======
+=======
+>>>>>>> Stashed changes
   Levelindex: 4
 --- !u!1 &770967200
 GameObject:
@@ -2255,6 +2270,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770967200}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &791155909
 GameObject:
@@ -3271,8 +3289,13 @@ MonoBehaviour:
   targetPosition: {x: 6.92, y: -4.53}
   moveInstantly: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   moveSpeed: 25
   delayBeforeMove: 0
+=======
+  moveSpeed: 50
+  delayBeforeMove: 0.2
+>>>>>>> Stashed changes
 =======
   moveSpeed: 50
   delayBeforeMove: 0.2
@@ -3333,8 +3356,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 6.5, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalPosition: {x: 6.7, y: -2.2, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 6.7, y: -2.2, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
@@ -3344,7 +3372,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1374094222
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +3531,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427175995}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1513472850
 GameObject:

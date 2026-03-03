@@ -1387,6 +1387,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   train: {fileID: 1837310431}
   Player: {fileID: 791155909}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &619394800
 GameObject:
@@ -1968,7 +1971,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -9.24, y: -1.38, z: 0}
+=======
+  m_LocalPosition: {x: -9.47, y: -1.5, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -9.47, y: -1.5, z: 0}
 >>>>>>> Stashed changes
@@ -2753,8 +2760,13 @@ MonoBehaviour:
   targetPosition: {x: 6.92, y: -4.53}
   moveInstantly: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   moveSpeed: 25
   delayBeforeMove: 0
+=======
+  moveSpeed: 50
+  delayBeforeMove: 0.2
+>>>>>>> Stashed changes
 =======
   moveSpeed: 50
   delayBeforeMove: 0.2
@@ -2815,8 +2827,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 6.5, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalPosition: {x: 6.7, y: -2.2, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 6.7, y: -2.2, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
@@ -2826,7 +2843,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1218238956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3127,6 +3147,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456383981}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1513472850
 GameObject:
@@ -4054,7 +4077,10 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1768823866
 GameObject:
   m_ObjectHideFlags: 0
@@ -4413,6 +4439,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942379861}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &2101297093
 GameObject:
@@ -4648,4 +4677,7 @@ SceneRoots:
   - {fileID: 662296647}
   - {fileID: 1031320000}
   - {fileID: 1587419037}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
