@@ -1,39 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: b4db50af771400641b1911455a3a67a3
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8891180011573125036
-    second: assets_0
-  - first:
-      213: -1687144669380700377
-    second: assets_1
-  - first:
-      213: -2892819179972619951
-    second: assets_2
-  - first:
-      213: 4748470198486955293
-    second: assets_3
-  - first:
-      213: 7488974563240590749
-    second: assets_4
-  - first:
-      213: 8525114657413556256
-    second: assets_5
-  - first:
-      213: -7264972599485739828
-    second: assets_6
-  - first:
-      213: -8918686826913355892
-    second: assets_7
-  - first:
-      213: 4754003520139017589
-    second: assets_8
-  - first:
-      213: 5936484407812813961
-    second: assets_9
-=======
 guid: 46990fb70caa5974e8ee407b68db98cd
 TextureImporter:
   internalIDToNameTable:
@@ -76,7 +41,6 @@ TextureImporter:
   - first:
       213: 7010617245534139418
     second: sprites_12
->>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,123 +120,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< Updated upstream
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-=======
->>>>>>> Stashed changes
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-<<<<<<< Updated upstream
-<<<<<<<< Updated upstream:TotallyNotRagebait/Assets/Assets/assets.png.meta
-========
-=======
->>>>>>> Stashed changes
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-<<<<<<< Updated upstream
->>>>>>>> Stashed changes:TotallyNotRagebait/Assets/Assets/Character model/sprites.png.meta
-=======
->>>>>>> Stashed changes
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: VisionOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -288,17 +136,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: spike
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 259
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_0
       rect:
         serializedVersion: 2
@@ -308,38 +145,19 @@ TextureImporter:
         height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: caf9edfec11d36b70800000000000000
-      internalID: 8891180011573125036
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 378c5330d971c0550800000000000000
       internalID: 6128299156075563123
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: spikeball
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 247
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_1
       rect:
         serializedVersion: 2
@@ -349,38 +167,19 @@ TextureImporter:
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7279ed0bcde0698e0800000000000000
-      internalID: -1687144669380700377
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 4259378eff7dffe20800000000000000
       internalID: 3386662938922423588
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: Buttonblue
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_2
       rect:
         serializedVersion: 2
@@ -390,38 +189,19 @@ TextureImporter:
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: d15f75fac74f5e140800000000000000
-      internalID: 4748470198486955293
-=======
       tessellationDetail: -1
       bones: []
       spriteID: d0fd1bd2306923ba0800000000000000
       internalID: -6110656803992641779
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: button yellow
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_3
       rect:
         serializedVersion: 2
@@ -431,38 +211,19 @@ TextureImporter:
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9d34eddfae2ee760800000000000000
-      internalID: 7488974563240590749
-=======
       tessellationDetail: -1
       bones: []
       spriteID: cf5924d4ab0b2b670800000000000000
       internalID: 8553092956536608252
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: buttongreen
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_4
       rect:
         serializedVersion: 2
@@ -472,38 +233,19 @@ TextureImporter:
         height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0286c98ec9a4f4670800000000000000
-      internalID: 8525114657413556256
-=======
       tessellationDetail: -1
       bones: []
       spriteID: a4467024e453a1d50800000000000000
       internalID: 6708733205153277002
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: buttoncyan
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_5
       rect:
         serializedVersion: 2
@@ -513,38 +255,19 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: cccc4b889e1ad2b90800000000000000
-      internalID: -7264972599485739828
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 2d807ff1a1b9e8e50800000000000000
       internalID: 6813553822765877458
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: butttonpurple
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_6
       rect:
         serializedVersion: 2
@@ -554,38 +277,19 @@ TextureImporter:
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: c87afda85957a3480800000000000000
-      internalID: -8918686826913355892
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 3fd1bc59bdec679b0800000000000000
       internalID: -5082647686934749709
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: assets_8
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_7
       rect:
         serializedVersion: 2
@@ -595,38 +299,19 @@ TextureImporter:
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57db7d6830d99f140800000000000000
-      internalID: 4754003520139017589
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 1f948c85a64fe5ed0800000000000000
       internalID: -2423230811885516303
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: assets_9
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 264
-        width: 4
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
       name: sprites_8
       rect:
         serializedVersion: 2
@@ -636,42 +321,25 @@ TextureImporter:
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 984f356bd11a26250800000000000000
-      internalID: 5936484407812813961
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 52e5e562122e1d010800000000000000
       internalID: 1211998406744890917
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: buttonred
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 264
-        width: 4
-=======
       name: sprites_9
       rect:
         serializedVersion: 2
         x: 245
         y: 239
         width: 8
->>>>>>> Stashed changes
         height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -679,31 +347,15 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f65af357cffb354ba0e191401bc9b23
-      internalID: 339039771
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 3ad6300a8e4bb6550800000000000000
       internalID: 6155212226941906339
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream
-      name: buttonpressed
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 248
-        width: 2
-        height: 14
-=======
       name: sprites_10
       rect:
         serializedVersion: 2
@@ -711,19 +363,12 @@ TextureImporter:
         y: 242
         width: 14
         height: 13
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
-      tessellationDetail: 0
-      bones: []
-      spriteID: 834ef5505b1890140ace58c540434266
-      internalID: -1383932399
-=======
       tessellationDetail: -1
       bones: []
       spriteID: 4363ea141016f07d0800000000000000
@@ -772,7 +417,6 @@ TextureImporter:
       bones: []
       spriteID: a143a40bd37ba4160800000000000000
       internalID: 7010617245534139418
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -781,11 +425,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-    spriteID: cc8e905c3c88ede4db4b52c28a03215b
-=======
     spriteID: 
->>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
@@ -795,20 +435,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      Buttonblue: 4748470198486955293
-      assets_2: -2892819179972619951
-      assets_8: 4754003520139017589
-      assets_9: 5936484407812813961
-      button yellow: 7488974563240590749
-      buttoncyan: -7264972599485739828
-      buttongreen: 8525114657413556256
-      buttonpressed: -1383932399
-      buttonred: 339039771
-      butttonpurple: -8918686826913355892
-      spike: 8891180011573125036
-      spikeball: -1687144669380700377
-=======
       sprites_0: 6128299156075563123
       sprites_1: 3386662938922423588
       sprites_10: -2950032572879587788
@@ -822,7 +448,6 @@ TextureImporter:
       sprites_7: -2423230811885516303
       sprites_8: 1211998406744890917
       sprites_9: 6155212226941906339
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
