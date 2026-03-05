@@ -1813,6 +1813,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273449690}
   m_CullTransparentMesh: 1
+--- !u!1 &274946328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274946330}
+  - component: {fileID: 274946329}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &274946329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274946328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aebba6e418329840bc4eaba2e7778be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 1174542708}
+--- !u!4 &274946330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274946328}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.33417574, y: 21.925825, z: 0.5741298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &406034051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,7 +2023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 228725443}
-  targetPosition: {x: -7.14, y: -4.31}
+  targetPosition: {x: -7.14, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -4672,7 +4717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 101961923}
-  targetPosition: {x: 1.55, y: -4.31}
+  targetPosition: {x: 1.55, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -4842,7 +4887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1174542709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5442,7 +5487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 124141981}
-  targetPosition: {x: 3.87, y: -4.31}
+  targetPosition: {x: 3.87, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -7234,7 +7279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 519343758}
-  targetPosition: {x: -1.91, y: -4.31}
+  targetPosition: {x: -1.91, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -7563,3 +7608,4 @@ SceneRoots:
   - {fileID: 1547010401}
   - {fileID: 599623971}
   - {fileID: 762790433}
+  - {fileID: 274946330}

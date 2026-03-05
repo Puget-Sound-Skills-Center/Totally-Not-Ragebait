@@ -76,7 +76,7 @@ public class WallClingPlayer : MonoBehaviour
         }
 
         // Jump
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
             {
