@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         // Use GetKeyDown to avoid multiple calls per frame
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Pause"))
         {
             if (isPaused)
             {
