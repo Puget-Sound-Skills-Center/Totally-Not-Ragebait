@@ -1607,8 +1607,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb5643fbc92210746a03478e0d6650a4, type: 3}
+  m_Resource: {fileID: 8300000, guid: cb5643fbc92210746a03478e0d6650a4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1793,7 +1793,7 @@ Transform:
   m_GameObject: {fileID: 582215483}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 7.23, y: 7.33, z: 0}
+  m_LocalPosition: {x: 7.4583926, y: 7.3240676, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1860,13 +1860,25 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.39499998, y: 0.19999999}
+      - {x: 0.29478636, y: 0.20000002}
+      - {x: 0.28705755, y: 0.20000002}
+      - {x: 0.19972126, y: 0.20000002}
+      - {x: 0.15412085, y: 0.20000003}
       - {x: 0.085, y: 0.19999999}
+      - {x: 0.0794888, y: 0.19242202}
+      - {x: 0.06920008, y: 0.17827511}
+      - {x: 0.032035153, y: 0.1271733}
+      - {x: 0.017092265, y: 0.10662687}
       - {x: 0.005, y: 0.089999996}
+      - {x: -0.0026353225, y: 0.09218157}
       - {x: -0.13499999, y: 0.13}
+      - {x: -0.15683669, y: 0.13935867}
       - {x: -0.205, y: 0.16}
+      - {x: -0.21577269, y: 0.16}
       - {x: -0.265, y: 0.16}
       - {x: -0.295, y: 0.13}
       - {x: -0.355, y: 0.12}
+      - {x: -0.3786853, y: 0.07855063}
       - {x: -0.39499998, y: 0.049999997}
       - {x: -0.39499998, y: -0.19999999}
       - {x: 0.385, y: -0.19999999}
@@ -2388,8 +2400,8 @@ MonoBehaviour:
   wallBounceCooldown: 0.15
   Player: {fileID: 791155909}
   wallDetachTime: 0.2
---- !u!60 &791155915
-PolygonCollider2D:
+--- !u!70 &791155915
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2423,26 +2435,8 @@ PolygonCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.36, y: 0.45}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.17999999, y: 0.225}
-      - {x: -0.17999999, y: -0.085}
-      - {x: -0.14999999, y: -0.114999995}
-      - {x: -0.14, y: -0.225}
-      - {x: 0.099999994, y: -0.225}
-      - {x: 0.16, y: -0.21499999}
-      - {x: 0.17999999, y: -0.145}
-      - {x: 0.17999999, y: 0.225}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 0.2, y: 0.45}
+  m_Direction: 0
 --- !u!1 &818003557
 GameObject:
   m_ObjectHideFlags: 0
