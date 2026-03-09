@@ -1721,6 +1721,7 @@ GameObject:
   - component: {fileID: 582215484}
   - component: {fileID: 582215486}
   - component: {fileID: 582215487}
+  - component: {fileID: 582215488}
   m_Layer: 0
   m_Name: Spikeball
   m_TagString: Untagged
@@ -1871,6 +1872,20 @@ PolygonCollider2D:
       - {x: 0.385, y: -0.19999999}
       - {x: 0.39499998, y: -0.11}
   m_UseDelaunayMesh: 0
+--- !u!114 &582215488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582215483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595d0925821aad419ba01a226b20344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  train: {fileID: 1837310431}
+  Player: {fileID: 791155909}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +2285,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &791155912
 SpriteRenderer:
@@ -3380,7 +3395,6 @@ GameObject:
   - component: {fileID: 1201818560}
   - component: {fileID: 1201818559}
   - component: {fileID: 1201818558}
-  - component: {fileID: 1201818561}
   m_Layer: 0
   m_Name: Spike trigger (2)
   m_TagString: Untagged
@@ -3466,20 +3480,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1201818561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201818557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d595d0925821aad419ba01a226b20344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  train: {fileID: 1837310431}
-  Player: {fileID: 791155909}
 --- !u!1 &1459249368
 GameObject:
   m_ObjectHideFlags: 0
