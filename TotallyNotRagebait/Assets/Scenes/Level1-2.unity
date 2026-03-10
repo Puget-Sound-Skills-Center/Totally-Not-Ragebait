@@ -2906,7 +2906,7 @@ MonoBehaviour:
   objectToMove: {fileID: 582215485}
   targetPosition: {x: 6.92, y: -90}
   moveInstantly: 0
-  moveSpeed: 50
+  moveSpeed: 74
   delayBeforeMove: 0
 --- !u!61 &1201818559
 BoxCollider2D:
