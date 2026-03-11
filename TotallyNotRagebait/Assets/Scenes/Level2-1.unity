@@ -276,7 +276,7 @@ Transform:
   m_GameObject: {fileID: 101961919}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.55, y: -5.01, z: 0}
+  m_LocalPosition: {x: 0.64, y: -4.99, z: 0}
   m_LocalScale: {x: 3.2, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -591,7 +591,7 @@ Transform:
   m_GameObject: {fileID: 124141977}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.87, y: -5.07, z: 0}
+  m_LocalPosition: {x: 3.11, y: -5.02, z: 0}
   m_LocalScale: {x: 3.2, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 1891816964}
-  targetPosition: {x: 6.64, y: -4.13}
+  targetPosition: {x: 6.64, y: -4.28}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 3
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 1891816964}
-  targetPosition: {x: 7.27, y: -4.13}
+  targetPosition: {x: 7.27, y: -4.28}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 5
@@ -1692,7 +1692,7 @@ Transform:
   m_GameObject: {fileID: 519343754}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.91, y: -5.04, z: 0}
+  m_LocalPosition: {x: -2.69, y: -5.04, z: 0}
   m_LocalScale: {x: 3.2, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3633,7 +3633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 101961923}
-  targetPosition: {x: 1.55, y: -4.36}
+  targetPosition: {x: 0.64, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -4600,7 +4600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 124141981}
-  targetPosition: {x: 3.87, y: -4.36}
+  targetPosition: {x: 3.11, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0
@@ -6533,7 +6533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 519343758}
-  targetPosition: {x: -1.91, y: -4.36}
+  targetPosition: {x: -2.69, y: -4.36}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 0

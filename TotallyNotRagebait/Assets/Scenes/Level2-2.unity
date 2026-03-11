@@ -1217,7 +1217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 1891816964}
-  targetPosition: {x: 6.59, y: -4.13}
+  targetPosition: {x: 6.59, y: -4.28}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 3
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 1891816964}
-  targetPosition: {x: 7.27, y: -4.13}
+  targetPosition: {x: 7.27, y: -4.28}
   moveInstantly: 0
   moveSpeed: 17
   delayBeforeMove: 5
