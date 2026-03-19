@@ -35,6 +35,8 @@ public class WallClingPlayer : MonoBehaviour
     private float wallDetachTimer;
     public float wallDetachTime = 0.2f;
 
+    [SerializeField] AudioSource jump;
+
 
     void Start()
     {
@@ -81,6 +83,7 @@ public class WallClingPlayer : MonoBehaviour
             if (isGrounded)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                jump.Play();
             }
             else if (isTouchingWall && wallBounceTimer <= 0)
             {
@@ -94,6 +97,7 @@ public class WallClingPlayer : MonoBehaviour
                 wallBounceTimer = wallBounceCooldown;
                 wallDetachTimer = wallDetachTime; // <-- THIS IS THE KEY
 
+                jump.Play();
                 transform.localScale = new Vector3(bounceDir, 1, 1);
             }
 

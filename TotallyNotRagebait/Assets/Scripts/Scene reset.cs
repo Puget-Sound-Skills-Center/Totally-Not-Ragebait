@@ -14,7 +14,7 @@ public class SceneResetter : MonoBehaviour
 
 
         // Load the scene with the retrieved name
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0);
 
         yield return new WaitForSeconds(0.5f);
 
